@@ -40,6 +40,7 @@ public class Point {
 	}
 
 	
+	@Override
 	public boolean equals(Object obj) {
 		Point p = (Point) obj;
 
@@ -48,7 +49,6 @@ public class Point {
 		} else {
 			return false;
 		}
-
 	}
 
 }
